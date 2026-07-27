@@ -1,0 +1,8 @@
+| Package                  | Use                            |
+| ------------------------ | ------------------------------ |
+| `pandas`                 | Data cleaning & transformation |
+| `numpy`                  | Numerical operations           |
+| `mysql-connector-python` | Python → MySQL connection      |
+| `jupyter`                | Exploratory Data Analysis      |
+| `matplotlib`             | Data visualization             |
+| `seaborn`                | Statistical visualization      |
