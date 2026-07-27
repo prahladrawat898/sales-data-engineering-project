@@ -83,7 +83,7 @@ sales-data-engineering-project/
 │
 ├── data/
 │   └── raw/
-│       └── superstore_sales.csv
+│       └── superstore_sales_for_datastudio.csv
 │
 ├── sql/
 │   ├── 01_database_creation.sql
