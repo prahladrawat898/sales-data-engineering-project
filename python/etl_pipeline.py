@@ -24,7 +24,7 @@ from datetime import datetime
 # 1. CONFIGURATION
 # =====================================================
 
-INPUT_FILE = "superstore_sales_for_datastudio.csv"
+INPUT_FILE = "data/raw/superstore_sales_for_datastudio.csv"
 
 OUTPUT_DIR = Path("data/processed")
 OUTPUT_FILE = OUTPUT_DIR / "sales_cleaned.csv"
