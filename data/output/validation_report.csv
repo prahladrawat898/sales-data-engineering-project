@@ -1,1 +1,7 @@
-
+check_name,result,status,validation_timestamp
+Total Records,9994,PASS,2026-07-28 14:25:41.147047
+Duplicate Records,0,PASS,2026-07-28 14:25:41.147047
+Missing Values,0,PASS,2026-07-28 14:25:41.147047
+Negative Sales,0,PASS,2026-07-28 14:25:41.147047
+Invalid Quantity,0,PASS,2026-07-28 14:25:41.147047
+Missing Order IDs,0,PASS,2026-07-28 14:25:41.147047
