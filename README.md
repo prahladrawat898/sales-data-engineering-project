@@ -297,6 +297,107 @@ This project demonstrates practical experience with:
 
 ---
 
+## Data Engineering Pipeline
+
+This project implements an end-to-end sales data processing workflow using Python, Pandas, NumPy, and SQL.
+
+### Pipeline Architecture
+
+```text
+Raw CSV Dataset
+      │
+      ▼
+Python ETL Pipeline
+      │
+      ├── Data Extraction
+      │
+      ├── Data Cleaning
+      │
+      ├── Data Type Transformation
+      │
+      ├── Feature Engineering
+      │
+      └── Data Validation
+      │
+      ▼
+Processed Dataset
+      │
+      ▼
+Automated Data Quality Checks
+      │
+      ▼
+Validation Report
+      │
+      ▼
+SQL Analysis
+      │
+      ▼
+Business Reporting Dashboard
+
+ETL Pipeline Execution
+
+The ETL pipeline was executed locally using Python and successfully processed:
+
+Input records: 9,994
+Output records: 9,994
+Output columns: 24
+Duplicate records: 0
+Missing values: 0
+Negative sales records: 0
+Invalid quantity records: 0
+Missing Order IDs: 0
+Data Quality Validation
+
+Automated validation checks were implemented using Python and Pandas to verify:
+
+Duplicate records
+Missing values
+Negative sales values
+Invalid quantities
+Missing Order IDs
+
+The validation pipeline completed successfully, with all implemented data-quality checks returning PASS for the processed dataset.
+
+Project Structure
+data/
+├── raw/
+│   └── superstore_sales_for_datastudio.csv
+│
+├── processed/
+│   └── sales_cleaned.csv
+│
+└── output/
+    └── validation_report.csv
+
+python/
+├── etl_pipeline.py
+└── validation.py
+
+sql/
+├── 01_data_validation.sql
+├── 02_eda_queries.sql
+└── 03_business_analysis.sql
+
+docs/
+└── data_dictionary.md
+Technologies Used
+Python
+Pandas
+NumPy
+SQL
+MySQL
+GitHub
+Key Data Engineering Skills Demonstrated
+ETL pipeline development
+Data extraction and transformation
+Data cleaning
+Data validation
+Data quality checks
+Feature engineering
+SQL-based data analysis
+Business reporting
+Technical documentation
+
 ## 📌 Project Status
 
 **Version:** 1.0
